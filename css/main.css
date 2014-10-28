@@ -1,0 +1,107 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* -- Baseline Elements --*/
+body{ 
+  background: #D4D4D4;
+}
+h1{
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+p{
+  font-family: georgia;
+}
+
+
+/* ----------- Grid --------- */
+/* -------------------------- */
+
+.grid {
+  background: #E8E8E8;
+  margin: 3rem 0;
+  overflow: hidden;
+}
+
+
+
+@media all and (max-width: 599px) and (min-width: 400px){
+
+.unit {
+float: left;
+width: 98%;
+margin: 1%;
+}
+    
+.unit img {
+width: 100%; 
+}
+    
+}
+
+@media all and (max-width: 799px) and (min-width: 600px){
+
+.unit {
+float: left;
+width: 48%;
+margin: 1%;
+}
+    
+.unit img {
+width: 100%; 
+} 
+    
+}
+
+@media all and (max-width: 1023px) and (min-width: 800px){
+
+.unit {
+float: left;
+width: 48%;
+margin: 1%;
+}
+    
+.unit img {
+width: 100%; 
+} 
+    
+}
+
+@media all and (min-width: 1024px){
+
+.unit {
+float: left;
+width: 31.3333%;
+margin: 1%;
+}
+    
+.unit img {
+width: 100%; 
+} 
+       
+}
+
+/* -- Footer -- */
+
+.footer{
+    float: left;
+    background: #111;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+
+
